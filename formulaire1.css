@@ -1,0 +1,50 @@
+html, body{
+    height: 100%;
+}
+body{
+    background: yellowgreen;
+    margin: 0;
+    font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+}
+.formulaire1{
+    width: 325px;
+    background: rgb(12, 3, 52);
+    text-align: left;
+    padding: 30px;
+    border: 2px solid rgba(0, 0, 0, .65);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    margin: 0 auto;
+    position: relative;
+    top: calc(50% - 175px)
+}
+.formulaire1 h1{
+    color: white;
+    margin: 0;
+    font-size: 2em;
+}
+.formulaire1 h5{
+    color: white;
+    font-weight: normal;
+    border-radius:5px ;
+}
+.formulaire1 input{
+    background: rgba(128, 128, 128, 0.407);
+    color: rgba(245, 245, 220, 0.614) ;
+    font-family: inherit;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    font-size: 0.85em;
+}
+
+.formulaire1 input[type="submit"]{
+    width: 50%;
+    background: #2207ef;
+    width: 200px;
+    color: white;
+    box-shadow: 0 2px 0 rgb(0, 55, 135);
+    font-size: 1em;
+    margin: 20px 0 5px 0;
+}
