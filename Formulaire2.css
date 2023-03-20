@@ -35,6 +35,11 @@ body{
     border-radius: 2px;
     font-size: 0.9em;
 }
+.formul input[type="checkbox"]{
+    position: relative;
+    top: 20px;
+    right: 160px;
+}
 
 
 .formul input[type="submit"]{
