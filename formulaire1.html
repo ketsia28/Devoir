@@ -8,16 +8,26 @@
     <link rel="stylesheet" type="text/css" href="formulaire1.css">
 </head>
 <body>
-    <form name="formu" class="formulaire1">
-        <h1>Welcome</h1>
-        <h5>Let's create your account!</h5>
-        <label for="nom"></label><br>
-        <input type="text" placeholder="First name"><br>
-        <label for="prenom"></label><br>
-        <input type="text" placeholder="Last name"><br>
-        <label for="email"></label><br>
-        <input type="email" placeholder="Email"><br>
-        <input type="submit" name="submit" value="submit">
+    <form name="formu" class="formulaire1" >
+        <div class="welcome">Welcome</div>
+        <div class="create">Let's create your account!</div>
+        <div class="conteneur">
+            <input type="text" id="firstname" class="input" placeholder="First name" required/>
+            <div class="cut"></div>
+            <label for="firstname" class="placeholder">First name</label>
+        </div>
+        <div class="conteneur">
+            <input type="text" placeholder="Last name" class="input" required/>
+            <div class="cut"></div>
+            <label for="prenom" class="placeholder">Last name</label><br>
+
+        </div>
+        <div class="conteneur">
+            <input type="email" placeholder="Email" class="input" required/>
+            <div class="cut"></div>
+            <label for="email" class="placeholder">Email</label><br>
+        </div>
+        <button type="text" class="submit">submit</button>
 
     </form>
 </body>
